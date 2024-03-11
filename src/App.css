@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.container-1 {
+  background-color: #ffc533;
+  height: 100vh;
+  overflow: hidden;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.main-heading {
+  color: #334155;
+  font-size: 32px;
+  font-family: 'Roboto';
+  max-width: 400px;
+}
+.no-user-image {
+  height: 300px;
+  width: 400px;
+}
+.main-container {
+  background-color: #ffbf1f;
+  padding: 20px;
+}
+.container-2 {
+  background-color: #0f172a;
+  min-height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+}
+.second-heading {
+  color: #ffbf1f;
+  font-size: 32px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: #272c47;
+  background-color: #ffbf1f;
+  padding: 12px;
+  border-radius: 3px;
+  font-family: 'Roboto';
+}
+.search-input {
+  padding: 8px;
+  margin-right: 20px;
+  width: 200px;
+}
+.container-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list-section-items {
+  list-style-type: none;
+}
+.list-element {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 23px;
+}
